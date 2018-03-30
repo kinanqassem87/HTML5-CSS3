@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html 5 Test</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylemobile.css" media="screen and (max-width:480px)">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body class="body">
+
+	
+	<!--  <canvas></canvas>      give area to paint with js --> 
+
+	<header class="mainheader">
+		
+		<img src="img/header.jpg"      >
+		<nav>
+			<ul>
+				<li><a href="#">| HOME</a> </li>
+				<li><a href="#">| PORTFOLIO</a> </li>
+				<li><a href="#">| ABOUT</a></li>
+				<li><a href="#">| CONTACT US</a></li>
+			</ul>
+		 </nav>
+
+	</header>
+
+<!-- /////////////////////////////////////////////// -->
+
+	<div class="maincontent">
+
+		<section class="top-content">
+			<header><h2> <a href="#"> My Intro Music</a></h2> </header>
+			
+			<footer>
+				<p class="post-info"> written by : kinan qassem</p>
+			</footer>
+			<article>
+
+
+				<figure> 
+				<img src="img/piano.jpg" class="post-img">
+				<figcaption>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+				</figcaption>
+				</figure>
+
+				<audio src="media/piano.mp3" controls>
+					<p>Your browser doesn't support audio</p>
+					
+				</audio>
+
+
+				<p class="post-content">
+					Lorem ipsum dolor <mark> sit amet, consectetur</mark> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis<bdi> موسيقى الجاز</bdi>  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <details>
+					<summary><mark> See more</mark></summary> dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</details>
+
+				</p>
+			</article>
+		</section>
+
+		<section class="top-content">
+			<header><h2> <a href="#"> Video tutorial</a></h2> </header>
+			
+			<footer>
+				<p class="post-info"> written by : kinan qassem</p>
+			</footer>
+			<article>
+				<video src="media/vid1.mp4" controls width="100%" > <!--autoplay-->
+					<p>Your browser doesn't support video</p>
+				</video>
+				<p class="post-content">
+					Lorem ipsum dolor sit amet, <small> consectetur adipisicing elit, sed do eiusmod tempor incididunt </small> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br>
+					<span>PhotoShop</span>
+					<meter value="40" max="100" min="0"></meter>
+					<span>Illustrator</span>
+					<meter value="70" max="100" min="0"></meter>
+					
+					<span>Indesign</span>
+					<progress value="50" max="100">
+				
+						
+
+
+				</p>
+			</article>
+		</section>
+
+		<section class="top-content">
+			<header><h2> <a href="#"> Music I Like</a></h2> </header>
+			
+			<footer>
+				<p class="post-info"> written by : kinan qassem</p>
+			</footer>
+			<article> 
+				<!--
+				<img src="img/s1.svg" width="100%" height="200px">
+				-->
+
+<!--  we can copy code of svg type of img from AI and paste it here to view img
+
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="595.28px" height="841.89px" viewBox="0 0 595.28 841.89" enable-background="new 0 0 595.28 841.89" xml:space="preserve">
+<image overflow="visible" width="346" height="146" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVoAAACSCAMAAAAzQ/IpAAAA81BMVEX///8AWpwAAADtqSEAWJsA
+UpgAVZnwqyEAUZgAT5cATZYAVJknZqJhkLv0riLfnx97nsPSlh2QqMfAiRuIpcWndxcnbaeluNEA
+SZSNrMv1+fsAYKBRgbLZmx7p6elLNQrS0tLp8PZ6VxHloyCQkJDv9PgzJAc0NDS0gBnJjxzExMSl
+paW7u7t5eXkmGwVoSg6LYxNEMAkSEhLS3+smJiZhYWGwxtsfFgRUPAtvb29QUFARDAKLi4uvr68d
+HR3D1OQtIAaSaBRAQEBEeq5jRg26zeBZiLVra2tKSkqOZRSgchZbW1ttmL/M2ugaEgOYtdA7Kgh7
+cK8lAAAVC0lEQVR4nO1daVcayxYVaOhJW7wiEFADKnGOMURjRqMoyTUS8v9/zQPpoYZ9TnWD+Na6
+i/3l3kiPu0+dqjPW0tICCyywwAILLLDAAgsssMACCyywwAILLLDAAgsssMDLo7Pdam03/t9P8Z9D
+49tFfoL3p0fzuEH7+vKf8gjDy0GHPbAMMORO6D7qJzy2uTMa3ftaZXRUpXbfneJVMmH7a17C8bPK
+buO6vFmqe25xDMf16s3+qy55h83JcSKcKnf5YV07wa+Tl28PH6ue5zp++DBe9bHGfofZoBA7wodv
+z3bx65WmVyzlJPhFr1omBGbo5DQ0uZdfKWnHW8S3aA97juNb8rG+62/W+JE0LRq3GrMjnD7LtTvD
+ZVd5leSNepfolGtPP9jjxu2yfn3/ER04WCk5JfQw1ujvj3NQDa33iNl8/vPsSqFT8YqQ1/CN3FxN
+P6lR148sMsq2A453wPGDXh3yGt2i3n9ucrcxsSPcznrpy6bDvMuE3Oq1dlo1rRROcO3q13U1ltor
+nq43ZJTcyvMuj/ZJamfUCe2eZyB28j4aa4++/gmYeSyVbr60iuZnsZym/qGnx2+Ryy8/3soLhRku
+fF0ySUkIp6rwgLjy6GlmE8xiPeWYFaA0ILn1VzO8soyThMePN4erdmFrfUfgdnvqC1fqKUR2glLp
+Xjp1gOYxWpzAFRX90a6Cj0XA3XwupfA9ZnFnN7DtQsG2g7Xz2VXCClCAJCxXmnXa4KOgeSk8GkyU
+jrT0GOR0DUPDX36eVW4itBvBiNcJ7GBnVrHdTC8mT9x60jjsgXmsT93qHnxER5zFBmlUvngrdhGd
+GrGmvQkKAoK72bRtRmZH8ESpBPNYzqLuVdHnJ6so/D7IMn6eUJqC26O904vPn39+/RbJYida0l5J
+zBbs3T/hD7+ic1vH43MvTo9b5vusZGZ2xK0whmtoHqNeF81iwnqia2WT2TH85Wz6tvVTmJ72955O
+Por+fWhL1BaCG0kjbJ8KZsX7rwYtMQTTkBnFZBB3AbUuMY91gC1WrMQ/N5ZTrlMk0OoHEXuRVzAe
+6nvh//+QhXYktlvRYS3dd5PPf+Us7qy6LYSViEoDXKBIrIra6DMkI6CfYjkL4LKuNgl7Kjljyd1e
+Og3/951KbSF4E/50JK7PEpyQt2o0p2J2RN5KfA1gj5U28e0ugSqtx8qjNtUAGq9Z0hq9PxE7I4mM
+qH3Qqb0Kf/p2jM8l57eV6eRkzEgsbGVgjxH6D8xiuVz0YzvLqku+XTMds78xO/n8h/C/G7ZG7Y5y
+iIY9fK/7KeXk6XUi9oAoWj6WIzCLJQIOfkwLpwJvp+CUYicGI7U0sEcXjOXUiPVpF3wf9x7eD6nl
+iBXknkwNK8UKjBjRIoCu/WE+qwVudsm/jYH3UjQ9usBogGLEfgSweBAfxWIfp1g2Mis6DX+cbRwc
+3LzWSPqorRDWtGP+3D0cHDxcfRH+BO7GPK3vOrnlZs5VvfzodXrcMJc+pb5AsJy28TNbRbfUXG76
+Lu1Oji9DI1l1/TgoBLZtB8HWjsrburqufacecbMbBONzd/9N/qZPZWi+njyom3u87LYbnXa31i9S
+L2S5obatgPmnieYxNOFVwwOBvTyBX++9GrQ7jXZ3UKmSblyj2LZiIs4KkWzawbpC3GvFGttSfv+7
+lZy7FTse32svC6Rt8pi5oXBsu0K9j1OjPxG0x5hlGmXhWl5/IFzhukcIt+UaqI3XXWeBIJnBocLd
+jiy2b+Rf/xaEn+3dWA+rYtslogqau7vdw7ZwZKK2kQoFkbQGuGE0GT7iVaCfU+26S0JDoRuK945Y
+eCNzF2wo3K6K5Kk/bkknJ4r4QrnbK0xYEUTAylBWrNDcbSDzFQxQJJmhSUyYLkXV8T5CF1vDPmGl
+hIi9BJo2PZfZ46i9UWa5xOmoaASo3SwPLpsqkNvIL2twukQAjhzLn3CHV16lHtLYHcKCZCPokfl/
+rhoFwUF6aleVkxNVLOfZoGFM2+MryFSKFCUysuqprhHZUWgmHP2I2epCs41yCU0QqVpV8Ar2ampq
+77RVr/03/ElWtnB9UKK8SGjQj9YBk3dPmYyAgr998qfRJQbaJcJHR6qsyFpkt4Q+GEHWCAy1wKCI
+NIJs7ZaBqFmkoxWvO0P+2iBlwNGmlTa4QKhSUDZDzl9RrxAD6TLKJTRB5Gdd070EsinLUAvM4GjZ
++9X4eNzqEGm4aPmVKiWGCVCin0B6Qgzk+6BcQhNE3hXV1z1WmH/SUXulyXtCrSy1wDxlU4qGQMoj
+e7afJhkBhtUndCDlxEohWiS4nEH2OeRA922NuP2ShtrXBf3UWCFIuhaNQS43A057pRWatZz6pmgW
+C2/4Cnw2Oiy8BO06PtUs8nrtaINa4ZaiFjFbsCODTPJ+IVcJl1EEp5ooOyNVuhGTwoRCl0WOKRQZ
+JrxtE8RuL50fWScQ1F5BZmNbriXeC6k3Lg8Oj/rlyU8oSU69WAfckFkY54iV1wRoCDnA1okRuxD0
+uUiWW0wtlNlkBpSdCIha9rsvPXp6lrIT/gbmOHWC51ZozFfD6OgJ0EU+Tek74i4hce0LRy3BbMz8
+T+lW0HfKrrrvK/9oiNaSKCFZSeWC+rhDn85S29Af5Z8KKxhxNPYt5jbSCYhagtnEjpODj5Ba3sXB
+APBmFeURzSXSZaY2OxJP+NvDAOnNUCcAas+hng0e4isqCbjtlDnE6ZAiqQ6o03jafAFqxTqFncMg
+0I3WiU7QqT3fVZm1R2cfCJaGUqmDFl/8CoFDB7j65A/Feh5fgtpGXsTdv5ooTnSCRq0us/bWjmQc
+f1ZvlXVdywMl1UnzGFouxeurl6BWiDMQw/xJJ6jUEocJ+K5Zgcgjwq66WaCVaU48AFkFueihXoTa
+pW8yt/rkFKxp1AJtsPVRvk5LuxF4nTSBUQJo/q+L8xjr032Jaezk2/EHE7f2mkztwxszs7++fTtR
+8uqQGFlMqjyPrsE84iMR86b26CssXNIHe3C4KtK4Dpj9gq50u9cSbgcd+4wjj0e7qV9MTKrrgrhw
+stabL7WtW8QGIbfMv5DMJviZiC6a1E0GGQNDUh2axZJEurlSq1eHctyyYJjNiz4aHCu3KNe+AajI
+SchyQykITvzrHKndJkU2O7eENogRF5NAy5OKOxphSKpjE+nmSC1VHToNt7zMjnEbLnlQ2GUMb6pq
+LD6prsGr4rlR2/luICMDt/bWW+PFfof3pbIuneo0vgTk/42XANAWS4bH3KhlqkNjQBdBdm0wQRgk
+I7NrLdfdHHYb2cov2HkMxWCFEOe8qBUzar9cne3cnSM6UnGrhNAivD7bOZMyHkMnGJ13aZUcz1nu
+rVSG3bQrXZBKkCQSgPCxGCZMQe1wuWrAsqbIhLzPjwerwdgns6WlHuZT6QSsDTZW7dFF7dXECZb/
+Prk1n19rWVbJd7xmr3KdRn7ZpDomBSElta9cywA9NTwpXdiJ/Ih2sPZGp+jvrolZPc82n7/bDa9q
+B7uJ5IYRSDZdOEKp6Do9c+MM5KWMjQIU4BGELA21xqoLLV06EdoNwYVoF9Z16OkJCrWH4CTB7SvU
+nH6Y3ByFCxFG+qG+aSiRRxlxkSlrCmnMh9o41KikvdgARoVgOseO5bY1uTsISpFP7hoWDn06jIDS
+wcXyg/lQG+WBf0GRxudGojLCdA9UI0cCdvFIgOpvw4RiZKqJ1M2F2tj3DYO4z464VDpKts1W3mTV
++7TORW6C0AFsmMXmTC2MMz474vBvHCkrZ6vl9umuJG0UxHnSIW1wISm8Mxdqo6jC25cgVki2TZIS
++hm7IbiUHYxcspNoG3LmSkHJuVAbJYJfvYjQjhCNkmSpmrnTBBWKQPPYE0EoE0/qSPdfpXapn7G/
+g0v4y8HbW091e4g5qax2rgrhx8sQm2Tfi0JTzli57+GgOlolO2P3r7EX2Fyo7bzsNBanKe1LTzFE
+ybYctzC5vY2oHRK9fKTct//U4uu3/BjdDB2gnriF1gMoTB1n4JpLHeZjMkTpylrl7TyQmAxflcdo
+VOpcQ0WdMpSCTSSHo3CGJXl8/u+Grpm5zIaugPajk6HvRAm5U1GHn5E9ixiX0xjn7Z45kNwzazpW
+CzxscI7k0kncM/tLAO1yLr3ORctbmFQ3gB3p5AXcfKgVislvYi9VsKrX6uc/bpk8X2qd9Bg7dvTF
+gsJZ/FeiY0pn2KvjprE6QHeHBkz8Rol7SrrpnKgVXOHn62OndRAUbgBHeo6MBq1Oeoy3B+FFN5II
+xHvM7BjtYc8f9zo28lsEq1sUxHlMUegwJ2rllig7/z68g+1O3qQJ4ATIGZ7Pn717eHcn/oFuoTRG
+YzDsLxfdokF8Qe4d7LiKLAmlUCFVlKEkIh21jTRhx79mmSXlVkOKvpaN9v2rlWWPaZyBkphgagNT
+uZOB2lpvU0Q6aplWyonMpmM2Hbdaqi2J9mW56ZEjsa5pWxRNQF1Y1IzI7LUMIK8B9rtpmchIpQ1Y
+nSBgP1sQvFumeiDr74KS6hDUzLL5Ubu0TTboyiazaeT2J3oAFm2ivy3oXEZ2kJGhquk5UrvU0Loo
+TsusiVuimRqPS9yVWS+GgsnhOm1qo5h5UjtSCuRkBjKTmX/xOuFiyu7B99A35mueW7IJk4SS1h18
+rtQuLZ18gll1gNk1Q+oyIbf7p62peB0DNqrRGqjDjqs6iv8op82b2tEJrZO9vQ9GZreUhHuUN66w
+ert3fDR9l/YxkBaNOscIb5DKlNPyo+dP7RgnZmb/qGUioJZE4fb9bLyO0EWNNvRc3FRdGrVV24tQ
+20rDrFbcZOb2w8xd9lESuV4eCduoaqypD/MS1ColeTta7GGSMaeV5Onl+sHhjmQwp7cTCKAZSi+G
+SjOP6R2oX4JaoaTh7rAQaHW6YZanXkh6pblz7dHJB0JW3qxbvjWAzas3MUFJddoH0fyRL0CtUP68
+nrH8+TVylYvlz9BFmwVgIgOVpyl0rb7ZyAtQGwvtjy3cbCLMn0VF+7CFh1i0P6vYInNAt8fMvZMt
+3dP7AtTGZgP0eieZybDVhK4TnriN5XbW7d5QZrevHWWex4Coz5/aWB9M1yDlHHMbBSzkCuh2f0UD
+vz0ackZ72lEoqU4G6ICHmik9L7VRCPILYEjKps/U1icO67TEe3XrJQ11NoEWtbPTu8aa00pBQwtY
+z8ctF5Fpwnb+45tRCXUKVDMqqBPsSNilZlSo3IjaqWIC1LFS3+wGN1+UPodeT4m+mtYnbKanj3IS
+DlALtXzeTC1cJwRRtNHYQq3EFj+jaAHoTWFKNLccPUUXRSccrqIVLZ/ZZlSR+0AvWlBqGJ+j8R/w
+ZbFtCWF3OtCczxQfRPtTQHOEE0LUnY6t3GbaVUpRw4ztKqNe7HLGDOziwSTUI8pQawpT6QnqC4BS
+l3S3mgDUi5vuYjrCL1Ih2K/TUqvraaLJKlqmcl2h0ThH7eyo0t8IaNyi7nbcd4bmNNvO7lPIgd6D
+dlWuD2WovdKpjT6LnNcBo691cvkFD4fNew07FsH+NsjO0BzmCdCIY6U83rLpr+YPmKWhddyxWTbH
+cPSV6pmEtnDM4f7c/DwW7+ZgPgenQy4R6pzvm0O3YX9N02dswx5Xpco8NOCbUxv1wL4UuMUsSqoT
+qIXChXszaJ72CfAeaXwfh/SbBxRoasnNA5SUWkK6PNihDteSOHAS5/cJwsKFe8JbcN9GVHSSgzlo
+IuK4rjQZaeGYM4m8XaXmWd7yYjVqwq6l0BGuVdBpooGZtRyomWHj7+Rz4NUnjk6UmvodrnE6Gt8q
+XIzenMVrfztYV3ocKHUPWtXz+W78YYKtxGOrxnAI9Zlz+8r3H1TxUpVSzGwQh+jSRuy/Yfnql6hQ
+e6CY2mN8Tvg7DLcXWtUq+A/ITS0ibETbCwnKQk9AgHstjAXAexTIHWxSW0NTb8MlI1B7LaB6vslN
+msJdOjWLYNa4B44UGvu7c3C4/u+dSptezQuK9T+ebRwePpzxm2LBNcITfKc/HHTb7e59pUfvea97
+FCfAc9IE5IoKFJ2FpHnL5cvxs3RrfZ+8coq+elxTqhDAKDD3m4GOcHrkWr7j+SNl6tLbjdG7/tGf
+jKFgQGtoy3fdUs73mL3PUuw3xmztGGOqDQhhGjg/l1uG9GWLsn46zEm0od/jl8P8nn2pmkE2bil2
+or5KYNvMM+UQDUSEYXPqTUCpldeEJUbUSXOPk3Uj0uztOOL2M2bnKDKDN3SpjRTyMdqCN0/n0FFb
+jqV5GcZVzcxj5G7m5JZjaUCWZKtA+vZ9K3aUa5sPiVsUfwPnMvn1lSk2LJ+gzjjJ6GQExi9AbnZl
+Bqy0wmj9UskZ71oeexjofZ1aS0vbn9RzP3FJSdUpN691OOVGJ9WxTtipd/Uldu3FOJG0wukTObE9
+oYZ7k6Dt03Hyjuc/W+yNMnVIEV6GdTPR8xjfaDRj24sIpBuHQONk79Pn/duLr8cRN3G890ypi4wt
+3TiL42jv9Pf+/u/TPXPugWEvXQyQSiCBnMf08gf5vGmm1eLUzeMTxGpCnsgSY2yqjO/KFKLCRSPG
+gGHEHA7eiOjgfRt5ZtkBlBLJztDrCbd2kNTvtaa67GNmbo0jkJrH9EQ6BV1zKaB6yerMOZhjJBr0
+xp6khNnBblIdqnoN04KoApmeWZyMmzNF45/O9LPJbfF5mBVXVn8eVncDe3dN9N1MnZ5cztJpwvJT
+9A4mLmhSJCO0l7Msbx24Z+k0kEpJ3ly9liLoM+R01dJ3SPGBC1UH0SybCBtI6GymHkQW0allGnB1
+kb9muXC3mW5utjymh5oAnFRnpRu9FcqLqaCUddXFgq6LZIrF06DRT6MUfH6ztwQ4qY7Pzklw3Uxh
+gFsu2Bp6FhwRzO7PXAdyXzUNxJKnxh9I4FhX6p2hGmXHmN6Um3qbKQrb0Lt18QzavFErMZJr+fWe
+eRKKrwWT6kAiHYXuSp2ZzizHK0+77wn31D91ZqeyFQAue7hK3yo5/kqmrYdQuNhkw8lol5suFF2r
+6CwPn2thoKCluMtPZ1YGCbqVqie3SLGsoutv1jLqNbjDTsbO6o3Lfs6V17mWX/SWH9OPnuxo7cVG
+78XxMxL7hO5wpVr3XGcM16sXe+XL7PPFdd3R4GXfYKdzWdm0hIdp9l8N5iSwAraPTk5az01rjO71
+ZW2Ey8GUs3CnBjDlbmadwdOz1O6782d1gQUWWGCBBRb4D+N/HWM5FBV6bTkAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 136 318.8901)">
+</image>
+</svg>
+
+-->
+
+
+				<p class="post-content">
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+				</p>
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/25DtYPpoyrw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+				
+			</article>
+		</section>
+
+	 </div>
+
+
+<!-- /////////////////////////////////////////////// -->
+
+	<aside>
+		<article class="TheSideBar">
+			<h1> <a href="#"> First side bar </a></h1>
+			<p contenteditable="true"> <!-- allow to edit text in p -->
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+		</article>
+	</aside>
+
+		<aside>
+		<article class="TheSideBar">
+			<h1> <a href="#"> Second side bar </a></h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+		</article>
+	</aside>
+
+		<aside>
+		<article class="TheSideBar">
+			<h1> <a href="#"> Third side bar </a></h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+		</article>
+	</aside>
+
+
+<!-- /////////////////////////////////////////////// -->
+
+	<footer class="footer"> 
+		<p>Copyright</p>
+	</footer>
+
+</body>
+</html>
